@@ -188,9 +188,16 @@
   display: flex;
   flex-wrap: wrap;
   padding: 24px 69px;
+
+  iframe {
+    font-size: 0px;
+    width: pxToEm(424, 20);
+    height: pxToEm(238, 20);
+  }
+
   &__textblock {
     padding: 0 24px;
-    max-width: 359;
+    max-width: 359px;
   }
 }
 
@@ -203,4 +210,13 @@
   .side-menu {
     display: none;
   } 
+}
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    padding: 0 20px;
+  }
+  .preview {
+    padding: 0 20px;
+  }
 }  
