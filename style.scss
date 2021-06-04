@@ -188,9 +188,10 @@
   display: flex;
   flex-wrap: wrap;
   padding: 24px 69px;
+  font-size: 18px;
 
   iframe {
-    font-size: 0px;
+    font-size: 20px;
     width: pxToEm(424, 20);
     height: pxToEm(238, 20);
   }
@@ -205,11 +206,19 @@
 
 @media only screen and (max-width: 1000px) {
   #wrapper {
+    font-size: 16px;
     grid-template-columns: 1fr;
   }
   .side-menu {
+    font-size: 16px;
     display: none;
   } 
+  .side-menu.visible {
+    display: block;
+    position: fixed;
+    width: 240px;
+    min-height: 100vh;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -218,5 +227,11 @@
   }
   .preview {
     padding: 0 20px;
-  }
-}  
+    font-size: 16px;
+
+    iframe {
+      font-size: 4.25vw;
+
+    }
+  }  
+}
