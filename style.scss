@@ -6,6 +6,7 @@
   }
   
   .top-menu {
+    background: #fff;
     position: fixed;
     width: 100%;
     height: 56px;
@@ -66,17 +67,16 @@
   }
 
   #wrapper {
+    box-sizing: border-box;
+    padding-top: 56px;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 240px 1fr;
   }
 
   .side-menu {
-    box-sizing: border-box;
     background: #fff;
-    width: 240px;
-    min-height: 100vh;
-    padding-top: 56px;
-
+        
     a {
       display: inline-block;
       text-decoration: none;
@@ -121,7 +121,7 @@
 
 .cover-img {
   height: 196px;
-  background: url(https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?cs=srgb&dl=pexels-flo-maderebner-869258.jpg&fm=jpg);
+  background: url(images/montains.jpg);
   background-size: cover;
   background-position: center;
 }
