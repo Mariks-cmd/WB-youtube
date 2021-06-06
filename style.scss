@@ -129,33 +129,37 @@
 
 
 .profile {
-  padding: 0 69px;
+  background: #f9f9f9;
+  padding: 16px 0 13px 107px;
+
   &__image {
     width: 80px;
     height: 80px;
     object-fit: cover;
     border-radius: 100%;
-    
   }
-  
+
+  &__name {
+    padding-left: 24px;
+
+  }
+
+  &__subscribe {
+    width: 105px;
+    height: 36px;
+    background-color: #BC271A;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 700px;
+  }
+
 }
 
 .profile-container {
-  margin-top: 16px;
-  margin-left: 107px;
   display: inline-block;
   display: flex;
-  // justify-content: space-between;
   align-items: center;
 }  
-
-.profile-container button {
-  width: 105px;
-  height: 36px;
-  background-color: red;
-  color: #fff;
-  margin-right: 112px;
-}
 
 .profile nav {
   display: flex;
@@ -165,7 +169,7 @@
 }
 
 .nav-container {
-  margin-left: 107px;
+  
 
    a {
     text-decoration: none;
@@ -182,11 +186,22 @@
   }
 }
 
+.nav-more {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+     
+  a {
+    text-decoration: none;
+    color: #606060;
+    margin-left: 210px;
+    padding: 10px;
 
-.profile .nav-more {
-  margin-right: 18px;
-}
+  }
   
+}
+
+
 .preview {
   display: flex;
   flex-wrap: wrap;
@@ -205,6 +220,59 @@
   }
 }
 
+.nav-preview {
+  padding: 24px 69px;
+  display: flex;
+
+  a {
+    text-decoration: none;
+    color: #606060;
+    margin-left: 32px;
+  }
+
+  span {
+    padding-left: 13px;
+  }
+}
+
+.grid-preview {
+  padding: 0 65px 28px;
+  display: flex;
+  align-items: center;
+  
+  div {
+    margin-left: 4px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #606060;
+  }
+
+}
+
+
+.row-preview {
+  font-size: 14px;
+
+  &__textblock {
+    max-width: 210px;
+    padding: 10px 0;
+  }
+
+  &__ellipse {
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+  }
+
+  &__arrow {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+  }
+}
 
 
 @media only screen and (max-width: 1000px) {
