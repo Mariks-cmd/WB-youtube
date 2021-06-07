@@ -45,6 +45,7 @@
   }
   
   button {
+    background: #f8f8f8;
     width: 63px;
   }
   
@@ -170,7 +171,6 @@
 
 .nav-container {
   
-
    a {
     text-decoration: none;
     color: #606060;
@@ -254,6 +254,8 @@
 
 .row-preview {
   font-size: 14px;
+  position: relative;
+  
 
   &__textblock {
     max-width: 210px;
@@ -262,15 +264,16 @@
 
   &__ellipse {
     display: inline-block;
-    position: relative;
-    bottom: 40px;
+    position: absolute;
+    right: -16px;
+    bottom: 155px;
   }
 
   &__arrow {
     display: inline-block;
     position: absolute;
-    left: 15px;
-    bottom: 15px;
+    right: -2px;
+    bottom: 170px;
   }
 }
 
