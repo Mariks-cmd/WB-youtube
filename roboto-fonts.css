@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-display: block;
+    src: url(roboto/Roboto-Thin.ttf) format('woff2');  
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-display: block;
+    src: url(roboto/Roboto-Thinitalic.ttf) format('woff2');  
+  } 
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+    src: url(roboto/Roboto-Light.ttf) format('woff2');  
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-display: block;
+    src: url(roboto/Roboto-Lightitalic.ttf) format('woff2');  
+  } 
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(roboto/Roboto-Regular.ttf) format('woff2');  
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url(roboto/Roboto-Italic.ttf) format('woff2');  
+  }
+  
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url(roboto/Roboto-Medium.ttf) format('woff2');  
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-display: block;
+    src: url(roboto/Roboto-Mediumitalic.ttf) format('woff2');  
+  }
+  
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url(roboto/Roboto-Bold.ttf) format('woff2');  
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-display: block;
+    src: url(roboto/Roboto-Bolditalic.ttf) format('woff2');  
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(roboto/Roboto-Black.ttf) format('woff2');  
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    font-display: block;
+    src: url(roboto/Roboto-Blackitalic.ttf) format('woff2');  
+  }
+  
